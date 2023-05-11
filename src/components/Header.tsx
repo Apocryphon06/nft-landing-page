@@ -66,7 +66,7 @@ const SearchIcon = () => {
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center py-5 px-10 ">
+    <div className="flex justify-between items-center py-5 px-10 sticky top-0 bg-black">
     <div className="flex items-center gap-[55px]">
       <p className="text-2xl font-bold capitalize cursor-pointer tracking-widest ">
         Omise

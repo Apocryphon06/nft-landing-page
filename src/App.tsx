@@ -257,7 +257,7 @@ const App = () => {
             </div>
           </div>
 
-          <div className=" auctions flex items-center justify-between gap-[55px] mt-10 overflow-x-scroll snap snap-x snap-mandatory">
+          <div className=" auctions flex items-center justify-between gap-[85px] mt-10 overflow-x-scroll snap snap-x snap-mandatory">
           {
             content.map(item=>(
               <Card data={item}/>
@@ -275,7 +275,7 @@ const App = () => {
             </div>
           </div>
 
-          <div className=" auctions flex items-center justify-between gap-[55px] mt-10 overflow-x-scroll snap snap-x snap-mandatory">
+          <div className=" auctions flex items-center justify-between gap-[85px] mt-10 overflow-x-scroll snap snap-x snap-mandatory">
           {
             content.map(item=>(
               <Card data={item}/>
